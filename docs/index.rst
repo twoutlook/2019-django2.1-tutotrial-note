@@ -45,6 +45,11 @@ Warning 的寫法
     lines must be broken and indented under the warning tag.
 
 
+現在，2018-12-28，發現生成的PDF沒有上述 Note Warning 的效果，在實驗 cs50 的工具是否可以實現。
+
+https://cs50.readthedocs.io/render50/
+
+
 
 Table of Contents
 -----------------
