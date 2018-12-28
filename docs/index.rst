@@ -18,17 +18,25 @@ https://github.com/django/django
 這樣子，就可以把我的心得筆記直接放在文件裡。
 
 
+https://sublime-and-sphinx-guide.readthedocs.io/en/latest/notes_warnings.html
 
-http://docutils.sourceforge.net/docs/ref/rst/directives.html#note
+.. note::
+   This is note text. Use a note for information you want the user to
+   pay particular attention to.
 
-.. note:: This is a note admonition.
-   This is the second line of the first paragraph.
+   If note text runs over a line, make sure the lines wrap and are indented to
+   the same level as the note tag. If formatting is incorrect, part of the note
+   might not render in the HTML output.
 
-   - The note contains all indented body elements
-     following.
-   - It includes this bullet list.
+   Notes can have more than one paragraph. Successive paragraphs must
+   indent to the same level as the rest of the note.
+   
+  .. warning::
+    This is warning text. Use a warning for information the user must
+    understand to avoid negative consequences.
 
-
+    Warnings are formatted in the same way as notes. In the same way,
+    lines must be broken and indented under the warning tag.
 
 
 
