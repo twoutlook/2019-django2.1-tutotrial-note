@@ -25,6 +25,11 @@ in a shell prompt (indicated by the $ prefix):
     
     查看代碼是有 .. console::
     
+    .. figure:: _img/tutorial01/00.png
+    :align: left
+    :figwidth: 300px
+    
+    
     在 https://docs.djangoproject.com/en/2.1/intro/tutorial01/
     
     猜想應該是使用了js技術
