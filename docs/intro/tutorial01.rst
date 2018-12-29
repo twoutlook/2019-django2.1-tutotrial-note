@@ -19,7 +19,7 @@ in a shell prompt (indicated by the $ prefix):
 
     $ python -m django --version
     
-.. figure:: _img/tutorial01/00.png
+.. figure:: /_static/img/tutorial01/00.png
     :align: left
     :figwidth: 300px
     
