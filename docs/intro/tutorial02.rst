@@ -12,6 +12,9 @@ This tutorial begins where :doc:`Tutorial 1 </intro/tutorial01>` left off.
 We'll setup the database, create your first model, and get a quick introduction
 to Django's automatically-generated admin site.
 
+.. note::
+    每段開始總是會先回顧一下上一講的主題，同時有快速查看的連結。
+
 Database setup
 ==============
 
