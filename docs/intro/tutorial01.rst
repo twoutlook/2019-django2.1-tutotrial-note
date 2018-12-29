@@ -43,7 +43,10 @@ Writing your first Django app, part 1
     
     
     
-    
+
+.. warning::
+    套路練習主要是練習熟練，一方面建立整體開發次序。(by Mark陳炳陵）
+ 
     
 
 
