@@ -2,6 +2,11 @@
 Writing your first Django app, part 4
 =====================================
 
+.. note::
+    原完整網頁參照官網 https://docs.djangoproject.com/en/2.1/intro/tutorial04/
+
+
+
 This tutorial begins where :doc:`Tutorial 3 </intro/tutorial03>` left off. We're
 continuing the Web-poll application and will focus on simple form processing and
 cutting down our code.
