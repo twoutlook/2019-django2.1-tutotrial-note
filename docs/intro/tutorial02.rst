@@ -255,6 +255,11 @@ this:
         'django.contrib.staticfiles',
     ]
 
+
+.. warning::
+    這裡的 'polls.apps.PollsConfig', 個人偏好還是使用簡易  'polls'。(by Mark陳炳陵）
+
+
 Now Django knows to include the ``polls`` app. Let's run another command:
 
 .. console::
