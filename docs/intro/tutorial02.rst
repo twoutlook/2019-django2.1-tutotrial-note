@@ -3,10 +3,9 @@ Writing your first Django app, part 2
 =====================================
 
 
-
-.. note::
+.. warning::
     原完整網頁參照官網 https://docs.djangoproject.com/en/2.1/intro/tutorial02/
-
+    ，以下是只是個人的心得筆記。
 
 
 This tutorial begins where :doc:`Tutorial 1 </intro/tutorial01>` left off.
