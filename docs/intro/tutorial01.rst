@@ -20,15 +20,19 @@ in a shell prompt (indicated by the $ prefix):
     $ python -m django --version
     
 
-.. image:: _static/img/tutorial01/00.png
-   :alt: tutorial01/00.png
-   
-.. image:: _images/admin07.png
-   :alt: Fields have been reordered
-   
+
 .. image:: _images/tutorial01_01.png
-   :alt: Fields have been reordered
-    
+   :alt: tutorial01_01.png
+
+.. image:: _images/tutorial01_02.png
+   :alt: tutorial01_02.png
+
+.. image:: _images/tutorial01_03.png
+   :alt: tutorial01_03.png
+
+
+
+
 .. warning::
     一開始比對時，發現 $ python -m django --version 沒有出現，
     
