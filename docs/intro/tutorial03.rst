@@ -463,6 +463,11 @@ file, go ahead and add an ``app_name`` to set the application namespace:
         path('<int:question_id>/vote/', views.vote, name='vote'),
     ]
 
+.. warning::
+    Namespace 是一個很重要的概念，在整個 polls App 裡，應該要有個這個定量 app_name，也適用於 view 指向 template html 檔案時使用 
+    。(by Mark陳炳陵）
+
+
 Now change your ``polls/index.html`` template from:
 
 .. code-block:: html+django
