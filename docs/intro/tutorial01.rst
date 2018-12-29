@@ -2,6 +2,14 @@
 Writing your first Django app, part 1
 =====================================
 
+
+
+.. note::
+    原完整網頁參照官網
+    https://2019-chenpingling.readthedocs.io/en/latest/
+
+
+
 Let's learn by example.
 
 Throughout this tutorial, we'll walk you through the creation of a basic
