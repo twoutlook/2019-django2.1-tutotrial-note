@@ -6,7 +6,7 @@ Writing your first Django app, part 1
 
 .. warning::
     原完整網頁參照官網 https://docs.djangoproject.com/en/2.1/intro/tutorial01/
-    ，以下是只是個人的心得筆記。
+    ，以下是只是個人的心得筆記。(by Mark陳炳陵）
 
 
 
