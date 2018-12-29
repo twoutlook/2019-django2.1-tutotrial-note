@@ -16,17 +16,22 @@ We'll assume you have :doc:`Django installed </intro/install>` already. You can
 tell Django is installed and which version by running the following command
 in a shell prompt (indicated by the $ prefix):
 
+
+    $ python -m django --version
+    
 .. warning::
     一開始比對時，發現 
      $ python -m django --version
      沒有出現，看代碼是有 .. console::
      在 https://docs.djangoproject.com/en/2.1/intro/tutorial01/
      猜想應該是使用了js技術
+     
+     2018-12-29 10:09
+     Mark 陳炳陵
 
 
 
 
-    $ python -m django --version
 
 If Django is installed, you should see the version of your installation. If it
 isn't, you'll get an error telling "No module named django".
