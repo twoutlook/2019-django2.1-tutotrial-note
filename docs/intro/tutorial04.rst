@@ -102,6 +102,10 @@ create a real version. Add the following to ``polls/views.py``:
             # user hits the Back button.
             return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
 
+.. warning::
+    教程在這裡是相對比較難的，由於 form 的寫法不規範，沒有能夠善用 Django 既有的框架，考慮做個規範的範例 。人的學習受到先入為主的影響，傳統上我是習慣以低中高進行，現代我可能偏向直接教高級的，在編程而言是指封裝比較完善的，先能作業，再求往下理解。(by Mark陳炳陵）
+
+
 This code includes a few things we haven't covered yet in this tutorial:
 
 * :attr:`request.POST <django.http.HttpRequest.POST>` is a dictionary-like
