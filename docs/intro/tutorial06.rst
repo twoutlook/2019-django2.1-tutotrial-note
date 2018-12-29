@@ -2,6 +2,9 @@
 Writing your first Django app, part 6
 =====================================
 
+.. note::
+    原完整網頁參照官網 https://docs.djangoproject.com/en/2.1/intro/tutorial04/
+
 This tutorial begins where :doc:`Tutorial 5 </intro/tutorial05>` left off.
 We've built a tested Web-poll application, and we'll now add a stylesheet and
 an image.
