@@ -2,8 +2,9 @@
 Writing your first Django app, part 5
 =====================================
 
-.. note::
+.. warning::
     原完整網頁參照官網 https://docs.djangoproject.com/en/2.1/intro/tutorial05/
+    ，以下是只是個人的心得筆記。
 
 This tutorial begins where :doc:`Tutorial 4 </intro/tutorial04>` left off.
 We've built a Web-poll application, and we'll now create some automated tests
