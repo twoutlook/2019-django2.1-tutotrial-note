@@ -4,7 +4,7 @@ Writing your first Django app, part 4
 
 .. warning::
     原完整網頁參照官網 https://docs.djangoproject.com/en/2.1/intro/tutorial04/
-    ，以下是只是個人的心得筆記。
+    ，以下是只是個人的心得筆記。(by Mark陳炳陵）
 
 
 
@@ -14,6 +14,9 @@ cutting down our code.
 
 Write a simple form
 ===================
+
+.. warning::
+    教程在這裡是在 detail.html 直接寫 <form action='xxx' method='post'>，按 Django 的規範而言，是要寫 form class的 。(by Mark陳炳陵）
 
 Let's update our poll detail template ("polls/detail.html") from the last
 tutorial, so that the template contains an HTML ``<form>`` element:
