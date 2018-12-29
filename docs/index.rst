@@ -5,7 +5,7 @@ Django2.1 Tutotrial Note
 我練習官網教程幾十次，並不是逐字看的，總是抓著能做的先做，有問題時回來找解簽，每次或多或少都有些心得，也曾經有些誤解。
 總而言之，實戰很重要，觀念也很重，知行要合一。
 
-有這個機會理解了 `Read The Doc`_
+有這個機會理解了 Read The Doc
 
 https://readthedocs.org/
 
@@ -17,8 +17,6 @@ https://github.com/django/django
 
 這樣子，就可以把我的心得筆記直接放在文件裡。
 
-
-https://sublime-and-sphinx-guide.readthedocs.io/en/latest/notes_warnings.html
 
 Note 的寫法
 
@@ -48,6 +46,15 @@ Warning 的寫法
 現在，2018-12-28，發現生成的PDF沒有上述 Note Warning 的效果，在實驗 cs50 的工具是否可以實現。
 
 https://cs50.readthedocs.io/render50/
+
+
+* To know which Python you're using, it applies to virtual venv as well
+
+    $ which python
+
+
+
+
 
 
 
