@@ -19,13 +19,16 @@ in a shell prompt (indicated by the $ prefix):
 
     $ python -m django --version
     
+.. figure:: _img/tutorial01/00.png
+    :align: left
+    :figwidth: 300px
     
 .. warning::
     一開始比對時，發現 $ python -m django --version 沒有出現，
     
     查看代碼是有 .. console::
     
-    .. figure:: _img/tutorial01/00.png
+.. figure:: _img/tutorial01/00.png
     :align: left
     :figwidth: 300px
     
