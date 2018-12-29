@@ -16,7 +16,15 @@ We'll assume you have :doc:`Django installed </intro/install>` already. You can
 tell Django is installed and which version by running the following command
 in a shell prompt (indicated by the $ prefix):
 
-.. console::
+.. warning::
+    一開始比對時，發現 
+     $ python -m django --version
+     沒有出現，看代碼是有 .. console::
+     在 https://docs.djangoproject.com/en/2.1/intro/tutorial01/
+     猜想應該是使用了js技術
+
+
+
 
     $ python -m django --version
 
