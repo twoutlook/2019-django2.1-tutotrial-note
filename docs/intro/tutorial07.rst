@@ -2,6 +2,9 @@
 Writing your first Django app, part 7
 =====================================
 
+.. note::
+    原完整網頁參照官網 https://docs.djangoproject.com/en/2.1/intro/tutorial07/
+
 This tutorial begins where :doc:`Tutorial 6 </intro/tutorial06>` left off. We're
 continuing the Web-poll application and will focus on customizing Django's
 automatically-generated admin site that we first explored in :doc:`Tutorial 2
