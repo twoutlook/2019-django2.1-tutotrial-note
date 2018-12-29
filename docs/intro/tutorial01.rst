@@ -23,7 +23,11 @@ in a shell prompt (indicated by the $ prefix):
 .. image:: _static/img/tutorial01/00.png
    :alt: tutorial01/00.png
    
-
+.. image:: _images/admin07.png
+   :alt: Fields have been reordered
+   
+.. image:: _images/tutorial01_01.png
+   :alt: Fields have been reordered
     
 .. warning::
     一開始比對時，發現 $ python -m django --version 沒有出現，
