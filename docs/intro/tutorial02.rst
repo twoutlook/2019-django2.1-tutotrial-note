@@ -13,10 +13,13 @@ We'll setup the database, create your first model, and get a quick introduction
 to Django's automatically-generated admin site.
 
 .. note::
-    每段開始總是會先回顧一下上一講的主題，同時有快速查看的連結。
+    每段開始總是會先回顧一下上一講的主題，同時有快速查看的連結。(by Mark陳炳陵）
 
 Database setup
 ==============
+
+.. note::
+    實做裡，我用做預設的SQLite3, PostGres 和 Oracle, 其中 Oracle 的配置很折騰。(by Mark陳炳陵）
 
 Now, open up :file:`mysite/settings.py`. It's a normal Python module with
 module-level variables representing Django settings.
