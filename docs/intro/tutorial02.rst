@@ -5,7 +5,7 @@ Writing your first Django app, part 2
 
 .. warning::
     原完整網頁參照官網 https://docs.djangoproject.com/en/2.1/intro/tutorial02/
-    ，以下是只是個人的心得筆記。
+    ，以下是只是個人的心得筆記。(by Mark陳炳陵）
 
 
 This tutorial begins where :doc:`Tutorial 1 </intro/tutorial01>` left off.
@@ -19,6 +19,7 @@ Database setup
 ==============
 
 .. note::
+    數據庫的設定。
     實做裡，我用做預設的SQLite3, PostGres 和 Oracle, 其中 Oracle 的配置很折騰。(by Mark陳炳陵）
 
 Now, open up :file:`mysite/settings.py`. It's a normal Python module with
@@ -123,6 +124,12 @@ tables Django created.
 
 Creating models
 ===============
+
+.. note::
+    數據模型。
+    在 views.py 和 admin.py 常常要再寫在這裡的定義，一直想做一個自動生成常用的語句可以直接copy/paste，例如 list_display = (['ordercode','code','useraddr1','useraddr2','useraddr3','note',])
+    。(by Mark陳炳陵）
+
 
 Now we'll define your models -- essentially, your database layout, with
 additional metadata.
