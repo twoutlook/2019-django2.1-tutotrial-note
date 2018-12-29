@@ -172,9 +172,15 @@ These concepts are represented by simple Python classes. Edit the
 
 
 .. note::
-    這個範例最亮點是  question = models.ForeignKey(Question, on_delete=models.CASCADE)。
-    根據個人實做驗証，可以在 Choice 　有另一個 member = models.ForeignKey(Member...。要注意的是，要有
-     on_delete=models.CASCADE (by Mark陳炳陵）
+    這個範例最亮點是  
+    
+    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+    
+    根據個人實做驗証，可以在 Choice 　有另一個 
+    
+    member = models.ForeignKey(Member, on_delete=models.CASCADE)
+    
+    要注意的是，要有 on_delete=models.CASCADE (by Mark陳炳陵）
 
 The code is straightforward. Each model is represented by a class that
 subclasses :class:`django.db.models.Model`. Each model has a number of class
