@@ -5,7 +5,7 @@ Writing your first Django app, part 3
 
 .. warning::
     原完整網頁參照官網 https://docs.djangoproject.com/en/2.1/intro/tutorial03/
-    ，以下是只是個人的心得筆記。
+    ，以下是只是個人的心得筆記。(by Mark陳炳陵）
 
 
 
@@ -67,6 +67,9 @@ refer to :doc:`/topics/http/urls` for more information.
 
 Writing more views
 ==================
+
+.. note::
+     對於做網頁來說，這一小段還不實用，但說明了原理，後續應該是在這基礎封裝的。(by Mark陳炳陵）
 
 Now let's add a few more views to ``polls/views.py``. These views are
 slightly different, because they take an argument:
