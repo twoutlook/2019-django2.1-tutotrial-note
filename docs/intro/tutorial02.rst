@@ -2,6 +2,14 @@
 Writing your first Django app, part 2
 =====================================
 
+
+
+.. note::
+    原完整網頁參照官網
+   https://docs.djangoproject.com/en/2.1/intro/tutorial02/
+
+
+
 This tutorial begins where :doc:`Tutorial 1 </intro/tutorial01>` left off.
 We'll setup the database, create your first model, and get a quick introduction
 to Django's automatically-generated admin site.
