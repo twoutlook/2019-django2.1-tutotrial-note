@@ -140,6 +140,13 @@ But, don't do that. It's silly.
 Write views that actually do something
 ======================================
 
+
+.. warning::
+    這裡又進了一步，但仍然還不是慣用的方式。(by Mark陳炳陵）
+
+
+
+
 Each view is responsible for doing one of two things: returning an
 :class:`~django.http.HttpResponse` object containing the content for the
 requested page, or raising an exception such as :exc:`~django.http.Http404`. The
@@ -248,6 +255,12 @@ bulleted-list containing the "What's up" question from :doc:`Tutorial 2
 
 A shortcut: :func:`~django.shortcuts.render`
 --------------------------------------------
+
+
+.. note::
+    前面兩種是進化的過程，這一種常用。(by Mark陳炳陵）
+
+
 
 It's a very common idiom to load a template, fill a context and return an
 :class:`~django.http.HttpResponse` object with the result of the rendered
