@@ -18,9 +18,24 @@ Writing your first Django app, part 1
     (venv)$ cd mysite
     (venv)$ python manage.py startapp polls
     
-    *** add path('polls/', include('polls.urls')), to mysite/urls.py
+    *** edit mysite/urls.py
+        add path('polls/', include('polls.urls')), above or below path('admin/', admin.site.urls),
+        add include to the line from django.urls import path
+    
     *** new polls/urls.py
+        from django.urls import path
+        from . import views
+
+        urlpatterns = [
+            path('', views.index, name='index'),
+        ]
+    
     *** add def index to polls/views.py
+        from django.http import HttpResponse    
+        def index(request):
+            return HttpResponse("Hello, world. You're at the polls index.")
+
+    
     (venv)$ python manage.py runserver
     *** browser, visit 127.0.0.1:8000
     
