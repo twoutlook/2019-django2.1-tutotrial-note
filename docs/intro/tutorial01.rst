@@ -18,6 +18,16 @@ Writing your first Django app, part 1
     (venv)$ cd mysite
     (venv)$ python manage.py startapp polls
     
+    *** add path('polls/', include('polls.urls')), to mysite/urls.py
+    *** new polls/urls.py
+    *** add def index to polls/views.py
+    (venv)$ python manage.py runserver
+    *** browser, visit 127.0.0.1:8000
+    
+    
+    
+    
+    
     
     
 
