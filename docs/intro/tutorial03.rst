@@ -3,9 +3,9 @@ Writing your first Django app, part 3
 =====================================
 
 
-
-.. note::
+.. warning::
     原完整網頁參照官網 https://docs.djangoproject.com/en/2.1/intro/tutorial03/
+    ，以下是只是個人的心得筆記。
 
 
 
