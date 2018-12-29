@@ -2,6 +2,11 @@
 Django2.1 Tutotrial Note
 ====================
 
+這網站
+
+https://2019-django21-tutotrial-note.readthedocs.io/en/latest/index.html
+
+
 我練習官網教程幾十次，並不是逐字看的，總是抓著能做的先做，有問題時回來找解簽，每次或多或少都有些心得，也曾經有些誤解。
 總而言之，實戰很重要，觀念也很重，知行要合一。
 
