@@ -6,7 +6,7 @@ Writing your first Django app, part 1
 
 .. note::
     原完整網頁參照官網
-    https://2019-chenpingling.readthedocs.io/en/latest/
+   https://docs.djangoproject.com/en/2.1/intro/tutorial01/
 
 
 
