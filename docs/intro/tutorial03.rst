@@ -2,6 +2,14 @@
 Writing your first Django app, part 3
 =====================================
 
+
+
+.. note::
+    原完整網頁參照官網
+   https://docs.djangoproject.com/en/2.1/intro/tutorial03/
+
+
+
 This tutorial begins where :doc:`Tutorial 2 </intro/tutorial02>` left off. We're
 continuing the Web-poll application and will focus on creating the public
 interface -- "views."
