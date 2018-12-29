@@ -20,7 +20,7 @@ in a shell prompt (indicated by the $ prefix):
     $ python -m django --version
     
 
-.. image:: ../_static/img/tutorial01/00.png
+.. image:: _static/img/tutorial01/00.png
    :alt: tutorial01/00.png
    
 
